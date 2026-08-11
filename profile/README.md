@@ -4,7 +4,7 @@ This organisation contains the repositories for my high availability private clo
 
 ## Implementation
 
-This project is using three Lenovo Thinkcentre computers, each with 16Gb of RAM. Further specs will be on the report.
+This project is using three Lenovo Thinkcentre computers, each with 4Gb of RAM and 32Gb Disk. Further specs will be on the report.
 
 Each computer is flashed with the Proxmox VE ISO to allow Talos Linux VMs to be deployed using infrastructure-as-code.
 
