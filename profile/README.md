@@ -1,4 +1,5 @@
-# High Availability Private Cloud Storage
+# High Availability Private Cloud Storage Project
+# ClusterKeep (Service Name)
 
 This organisation contains the repositories for my high availability private cloud storage solution. I intend to build a service that allows users to access private and secure cloud storage running on a kubernetes cluster to support the high availability aspect.
 
