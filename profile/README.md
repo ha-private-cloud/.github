@@ -5,7 +5,7 @@ This organisation contains the repositories for my high availability private clo
 
 ## Implementation
 
-This project is using three Lenovo Thinkcentre computers which each deploy a control plan and two worker VMs with 4Gb of RAM and 32Gb Disk each. The two computer with larger disk spaces also deploy nfs-storage VMs. Further specs will be on the report.
+This project is using three Lenovo Thinkcentre computers which each deploy a control plane and two worker VMs with 4Gb of RAM and 32Gb Disk each. The two computer with larger disk spaces also deploy nfs-storage VMs. Further specs will be on the report.
 
 Each computer is flashed with the Proxmox VE ISO to allow Talos Linux VMs to be deployed using infrastructure-as-code.
 
