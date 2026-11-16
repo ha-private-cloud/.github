@@ -2,6 +2,12 @@
 
 ClusterKeep is my high availability private cloud storage project. Most people's files are held by a small handful of large US companies, which puts them under US law wherever the servers are. ClusterKeep lets someone host their own cloud storage at home, reachable from their home network or anywhere in the world, without needing to be an infrastructure expert to run it.
 
+## Disclaimer
+
+The clusterkeep URL will often be unavailable as I currently only turn the machines on when I'm developing or using the firewall VM, this is a WIP project and public access won't be offered. 
+
+The GitHub organisation profile will be updated periodically as progress is made in the project and the end goal is to have a complete ecosystem within my project deadlines and a runbook which will allow others to deploy the ClusterKeep platform themselves.
+
 ## What's running
 
 Three Lenovo ThinkCentre computers run Proxmox VE. Each one hosts a Talos Linux control plane and two workers, so the Kubernetes cluster keeps running if any one computer goes down. Two of them also host an NFS server for storage, and a CI bastion VM runs the GitHub Actions runners and internal DNS. An OPNsense VM on a fourth computer is the edge firewall.
